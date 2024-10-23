@@ -1,11 +1,11 @@
 @import url(normalize.css);
 body{
     background: #2D7E3E no-repeat url(../images/werewolf-bg.png);
-    background-size: cover;
+    background-size: 100% 100%;
     min-height: 100vh;
 }
 
-header{
+.navbar{
     display: flex;
     justify-content: space-between;
 }
@@ -14,18 +14,18 @@ a{
     text-decoration: none;
 }
 
-header img{
+.navbar img{
     margin-left: 2em;
     width: 100px;
 }
 
-header h1{
+.navbar h1{
     font-family: "Dancing Script", cursive;
     text-align: center;
     padding-top:20px;
 }
 
-header button{
+.portfolio-button {
     border: none;
     border-radius:10px;
     padding:5px 10px;
@@ -36,11 +36,11 @@ header button{
     cursor: pointer;
 }
 
-header button:hover{
+.portfolio-button:hover{
     opacity: 0.5;
 }
 
-header button:active{
+.portfolio-button:active{
     background-color: #41BF5C;
 }
 
@@ -51,28 +51,31 @@ main{
 
 .hero{
     background-color: #55397D;
-    width: 50%;
+    width: 65%;
     border-radius: 20px;
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
     position: relative;
     margin: 11em 20px;
 }
 
-.hero p{
+.hero p,.hero ul li{
     /* line-height: 3em; */
-    font-size: xx-large;
+    font-size: x-large;
+    text-align: justify;
 }
 
 .skill-flow{
     width: 100%;
     position: absolute;
     top: -11em;
+    left: 0;
     display: flex;
 }
 
 .skill {
     width: 25%;
+    text-align: center;
 }
 
 .animation-frame{
@@ -97,28 +100,85 @@ main{
 
 .hero img{
     border-radius: 50%;
-    width: 200px;
+    width: 270px;
+    float: left;
+    padding-right: 1em;
 }
 
 .portfolio {
     width: 100%;
     position: absolute;
     bottom: -11em;
+    left: 0;
+    text-align: center;
 }
 
 .portfolio a:hover{
     text-decoration: underline;
 }
 
+
+/* Social Media Icons Section */
+#contact {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* Optional: Style icons based on specific platforms */
+.social-icon .fa-facebook-f {
+    color: #3b5998;
+}
+.social-icon .fa-twitter {
+    color: #1da1f2;
+}
+.social-icon .fa-linkedin-in {
+    color: #0077b5;
+}
+.social-icon .fa-github {
+    color: #333;
+}
+.social-icon .fa-envelope {
+    color: #d44638;
+}
+
+
+footer {
+    width: 65%;
+    text-align: center;
+}
 @media (max-width: 1300px){
     .hero{
+        width: calc(100vw - 80px);
+    }
+    footer {
         width: calc(100vw - 80px);
     }
 }
 
 @media (max-width: 840px){
+    .hero{
+        text-align: center;
+    }
     .hero img{
-        width: 100px;
+        width: 150px;
+        float: none;
     }
     .hero p{
         font-size: x-large;
