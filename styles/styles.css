@@ -128,6 +128,7 @@ main{
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top: 1em;
 }
 
 .social-icon {
@@ -164,6 +165,9 @@ footer {
     text-align: center;
 }
 @media (max-width: 1300px){
+    body{
+        background: #2D7E3E;
+    }
     .hero{
         width: calc(100vw - 80px);
     }

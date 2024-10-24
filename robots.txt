@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /blog/wp-admin/
+Disallow: /blog/wp-includes/
+Disallow: /blog/wp-content/plugins/
+Allow: /blog/wp-admin/admin-ajax.php
+
+Sitemap: https://suryaadhikari.com.np/blog/sitemap_index.xml
