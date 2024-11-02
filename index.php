@@ -6,29 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO Metadata -->
-    <meta name="description" content="Surya Adhikari - A Web Developer and Blogger from Kathmandu with 6+ years of experience in HTML, CSS, JavaScript, and PHP. Explore my portfolio and blog to discover my latest projects and insights.">
-    <meta name="keywords" content="Surya Adhikari, Web Developer, Software Engineer, Freelance developer Nepal, HTML, CSS, JavaScript, PHP, Blogger, Descriptive writing, Technical writing, Kathmandu, Nepal, Portfolio, Web Apps">
+    <meta name="description" content="Surya Adhikari - A Nepali Web Developer and Blogger based in Kathmandu, Nepal with 6+ years of experience in full-stack development. Specializing in HTML, CSS, JavaScript, and PHP, I build dynamic web apps and share insights through creative and research writing. Explore my portfolio for freelance and software engineering projects.">
+    <meta name="keywords" content="Kathmandu, Nepal, Surya Adhikari, Nepali, Web Developer, Full-stack Web Developer, Blogger, Software Engineer, Freelance developer Nepal, HTML, CSS, JavaScript, PHP, Creative writing, Research writing, Portfolio, Web Apps">
     <meta name="author" content="Surya Adhikari">
-    
-    <!-- Open Graph / Facebook Metadata -->
-    <meta property="og:title" content="Surya Adhikari - Web Developer Portfolio">
-    <meta property="og:description" content="Explore the web development work, skills and blog of Surya Adhikari, a developer from Kathmandu.">
-    <meta property="og:image" content="images/profile-pic.png">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Surya Adhikari - Full-Stack Web Developer & Blogger in Kathmandu, Nepal">
+    <meta property="og:description" content="Discover the portfolio, skills, and technical blog of Surya Adhikari, a Nepali full-stack developer specializing in HTML, CSS, JavaScript, and PHP.">
+    <meta property="og:image" content="https://suryaadhikari.com.np/images/profile-pic.png">
     <meta property="og:url" content="https://suryaadhikari.com.np">
     <meta property="og:type" content="website">
-    
+
     <!-- Twitter Metadata -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Surya Adhikari - Web Developer Portfolio">
-    <meta name="twitter:description" content="Explore the web development work, skills and blog of Surya Adhikari, a developer from Kathmandu.">
-    <meta name="twitter:image" content="images/profile-pic.png">
+    <meta name="twitter:title" content="Surya Adhikari - Full-Stack Web Developer & Blogger in Nepal">
+    <meta name="twitter:description" content="Explore Surya Adhikari's portfolio and blog featuring web development expertise in HTML, CSS, JavaScript, and PHP.">
+    <meta name="twitter:image" content="https://suryaadhikari.com.np/images/profile-pic.png">
+
 
     <link rel="icon" href="images/SURYA-LOGO.png" type="image/png" />
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles/styles.css">
 
-    <title>Surya Adhikari - Web Developer Portfolio</title>
+    <meta name="google-site-verification" content="o2OhzCNtTLpDsGzClLVlXqpu5zO32FZyZ-JQiEFihZw" />
+
+    <title>Surya Adhikari | Freelance Full-Stack Developer & Blogger in Nepal - HTML, CSS, JavaScript, PHP</title>
 </head>
 <body>
     <header class="navbar">

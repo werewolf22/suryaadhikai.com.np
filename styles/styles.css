@@ -161,7 +161,7 @@ main{
 
 
 footer {
-    width: 65%;
+    width: 70%;
     text-align: center;
 }
 @media (max-width: 1300px){
@@ -172,7 +172,7 @@ footer {
         width: calc(100vw - 80px);
     }
     footer {
-        width: calc(100vw - 80px);
+        width: 100%;
     }
 }
 
