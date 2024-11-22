@@ -46,7 +46,7 @@
             <div class="hero">
                 <div class="skill-flow">
                     <div class="skill">
-                        <a target="_blank" href="https://github.com/werewolf22/html_css">
+                        <a target="_blank" href="https://github.com/werewolf22/html_css" class="portfolio-button">
                             HTML
                         </a>
                         <div class="animation-frame">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <a target="_blank" href="https://github.com/werewolf22/html_css">
+                        <a target="_blank" href="https://github.com/werewolf22/html_css" class="portfolio-button">
                             CSS
                         </a>
                         <div class="animation-frame">
@@ -62,7 +62,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <a target="_blank" href="https://github.com/werewolf22/js-exercises">
+                        <a target="_blank" href="https://github.com/werewolf22/js-exercises" class="portfolio-button">
                             JS
                         </a>
                         <div class="animation-frame">
@@ -70,7 +70,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <a target="_blank" href="https://github.com/werewolf22/100-Algorithms-milestone">
+                        <a target="_blank" href="https://github.com/werewolf22/100-Algorithms-milestone" class="portfolio-button">
                             PHP
                         </a>
                         <div class="animation-frame">
@@ -142,7 +142,7 @@
                     <div class="animation-frame">
                         <div></div>
                     </div>
-                    <a href="https://github.com/werewolf22" target="_blank"><span>Web Apps</span></a>
+                    <a href="https://github.com/werewolf22" target="_blank" class="portfolio-button"><span>Web Apps</span></a>
                 </div>
             </div>
         </article>

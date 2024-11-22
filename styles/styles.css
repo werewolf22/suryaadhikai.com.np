@@ -50,7 +50,7 @@ main{
 }
 
 .hero{
-    background-color: #55397D;
+    background-color: #0c743a;
     width: 65%;
     border-radius: 20px;
     padding: 20px;
@@ -81,13 +81,13 @@ main{
 .animation-frame{
     margin: 0 auto;
     width: 1em;
-    height: 10em;
-    background-color: cornflowerblue;
+    height: 9em;
+    background-color: #10a8af;
 }
 
 .box-enter{
     width: 1em;
-    height: 10em;
+    height: 9em;
     background-color: #163D1F;
     animation: box-enter 3s ease 0s infinite forwards;
 }
@@ -96,6 +96,13 @@ main{
     0% { clip-path: inset(-5% 25% 95% 25%); }
     50% { clip-path: inset(45% 25% 50% 25%); }
     100% { clip-path: inset(95% 25% -5% 25%); }
+}
+
+.hero a.portfolio-button{
+    background-color: #009782;
+    color: black;
+    font-family: 'Dancing Script';
+    margin: 0;
 }
 
 .hero img{
@@ -113,9 +120,6 @@ main{
     text-align: center;
 }
 
-.portfolio a:hover{
-    text-decoration: underline;
-}
 
 
 /* Social Media Icons Section */
@@ -138,25 +142,37 @@ main{
     transition: color 0.3s;
 }
 
-.social-icon:hover {
-    color: #007bff; /* Change color on hover */
-}
 
 /* Optional: Style icons based on specific platforms */
 .social-icon .fa-facebook-f {
-    color: #3b5998;
+    color: #265acb;
+}
+.social-icon .fa-facebook-f:hover {
+    color: #0040c9;
 }
 .social-icon .fa-twitter {
     color: #1da1f2;
 }
+.social-icon .fa-twitter:hover {
+    color: #006db1;
+}
 .social-icon .fa-linkedin-in {
-    color: #0077b5;
+    color: #0097f4;
+}
+.social-icon .fa-linkedin-in:hover {
+    color: #014970;
 }
 .social-icon .fa-github {
     color: #333;
 }
+.social-icon .fa-github:hover {
+    color: rgb(30, 28, 28);
+}
 .social-icon .fa-envelope {
     color: #d44638;
+}
+.social-icon .fa-envelope:hover {
+    color: #ff1500;
 }
 
 
