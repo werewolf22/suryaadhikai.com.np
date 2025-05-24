@@ -39,7 +39,7 @@
             <img src="images/SURYA-LOGO.png" alt="Surya Adhikari Logo">
         </a>
         <h1>Surya Adhikari</h1>
-        <a href="blog"><button class="portfolio-button">Blog</button></a>
+        <a href="blog"><button class="portfolio-button" style="margin-top: 20px">Blog</button></a>
     </header>
     <main>
         <article>
@@ -80,7 +80,10 @@
                 </div>
 
                 
-                <img src="images/profile-pic.png" alt="Surya Adhikari - Web Developer">
+                <div class="hero-img-wrapper">
+                    <img src="images/profile-pic.png" alt="Surya Adhikari - Web Developer">
+                </div>
+
 
                 <header>
                     <h1>Welcome! I'm Surya Adhikari, a Web Developer and Blogger</h1>

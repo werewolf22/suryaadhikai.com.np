@@ -1,13 +1,32 @@
 @import url(normalize.css);
-body{
-    background: #2D7E3E no-repeat url(../images/werewolf-bg.png);
-    background-size: 100% 100%;
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(45, 126, 62, 0.7); 
+    z-index: -1;
+}
+
+body {
+    position: relative;
+    background: #2D7E3E no-repeat center 20px url(../images/werewolf-bg.png);
+    background-size: cover;
+    background-attachment: fixed; /* optional for a parallax effect */
     min-height: 100vh;
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgba(45, 126, 62, 0.95); /* optional transparency */
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 a{
@@ -16,7 +35,7 @@ a{
 
 .navbar img{
     margin-left: 2em;
-    width: 100px;
+    width: 80px;
 }
 
 .navbar h1{
@@ -108,9 +127,28 @@ main{
 .hero img{
     border-radius: 50%;
     width: 270px;
-    float: left;
-    padding-right: 1em;
 }
+
+.hero-img-wrapper {
+    display: inline;
+    position: relative;
+    width: fit-content;
+    float: left;
+    margin-right: 1em;
+}
+
+.hero-img-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(45, 126, 62, 0.5); /* transparent green overlay */
+    border-radius: 50%; /* match the image shape */
+    pointer-events: none; /* lets clicks go through */
+}
+
 
 .portfolio {
     width: 100%;
