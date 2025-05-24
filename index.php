@@ -152,8 +152,11 @@
     </main>
 
     <!-- Footer Section -->
-    <footer>
-        <p>&copy; <?php echo date("Y"); ?> Surya Adhikari. All rights reserved.</p>
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Surya Adhikari. All rights reserved.</p>
+            <p>Made with ❤️ in Kathmandu, Nepal</p>
+        </div>
     </footer>
     
     <script src="scripts/script.js"></script>

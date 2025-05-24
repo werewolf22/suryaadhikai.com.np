@@ -11,3 +11,5 @@ document.querySelectorAll(".skill .box-enter").forEach(function(box){
         });
     })
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();
