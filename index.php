@@ -87,7 +87,7 @@
 
                 <header>
                     <h1>Welcome! I'm Surya Adhikari, a Web Developer and Blogger</h1>
-                    <p>I have a passion for crafting engaging creative, research intensive and technical content. With over 6 years of experience in web development, I specialize in HTML, CSS, JavaScript, and PHP. Explore my portfolio and blog to discover my latest projects and insights.</p>
+                    <p>I have a passion for crafting engaging, creative, research intensive and technical content. With over 6 years of experience in web development, I specialize in HTML, CSS, JavaScript, and PHP. Explore my portfolio and blog to discover my latest projects and insights.</p>
                 </header>
             
                 <!-- About Me Section -->

@@ -16,6 +16,7 @@ body {
     background-size: cover;
     background-attachment: fixed; /* optional for a parallax effect */
     min-height: 100vh;
+    color: #142520;
 }
 
 .navbar {
@@ -24,7 +25,7 @@ body {
     align-items: center;
     position: sticky;
     top: 0;
-    background-color: rgba(45, 126, 62, 0.95); /* optional transparency */
+    background-color: #297a69; /* optional transparency */
     z-index: 1000;
     box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
@@ -69,13 +70,14 @@ main{
 }
 
 .hero{
-    background-color: #0c743a;
+    background-color: #2b8a76;
     width: 65%;
     border-radius: 20px;
     padding: 20px;
     /* text-align: center; */
     position: relative;
     margin: 11em 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 .hero p,.hero ul li{
@@ -87,7 +89,7 @@ main{
 .skill-flow{
     width: 100%;
     position: absolute;
-    top: -11em;
+    top: -185px;
     left: 0;
     display: flex;
 }
@@ -98,16 +100,18 @@ main{
 }
 
 .animation-frame{
-    margin: 0 auto;
-    width: 1em;
+    margin: 5px auto;
+    width: 2px;
     height: 9em;
-    background-color: #10a8af;
+    background-color: #256658;
+    text-align: center;
 }
 
 .box-enter{
-    width: 1em;
+    width: 5px;
     height: 9em;
-    background-color: #163D1F;
+    margin-left: -2px;
+    background-color: #2e48b0;
     animation: box-enter 3s ease 0s infinite forwards;
 }
 
@@ -153,7 +157,7 @@ main{
 .portfolio {
     width: 100%;
     position: absolute;
-    bottom: -11em;
+    bottom: -185px;
     left: 0;
     text-align: center;
 }
