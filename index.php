@@ -13,7 +13,7 @@
     <!-- Open Graph Metadata -->
     <meta property="og:title" content="Surya Adhikari - Full-Stack Web Developer & Blogger in Kathmandu, Nepal">
     <meta property="og:description" content="Discover the portfolio, skills, and technical blog of Surya Adhikari, a Nepali full-stack developer specializing in HTML, CSS, JavaScript, and PHP.">
-    <meta property="og:image" content="https://suryaadhikari.com.np/images/profile-pic.png">
+    <meta property="og:image" content="https://suryaadhikari.com.np/images/profile-pic-web.jpeg">
     <meta property="og:url" content="https://suryaadhikari.com.np">
     <meta property="og:type" content="website">
 
@@ -21,7 +21,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Surya Adhikari - Full-Stack Web Developer & Blogger in Nepal">
     <meta name="twitter:description" content="Explore Surya Adhikari's portfolio and blog featuring web development expertise in HTML, CSS, JavaScript, and PHP.">
-    <meta name="twitter:image" content="https://suryaadhikari.com.np/images/profile-pic.png">
+    <meta name="twitter:image" content="https://suryaadhikari.com.np/images/profile-pic-web.jpeg">
 
 
     <link rel="icon" href="images/SURYA-LOGO.png" type="image/png" />
@@ -81,7 +81,7 @@
 
                 
                 <div class="hero-img-wrapper">
-                    <img src="images/profile-pic.png" alt="Surya Adhikari - Web Developer">
+                    <img src="images/profile-pic-web.jpeg" alt="Surya Adhikari - Web Developer">
                 </div>
 
 
@@ -121,22 +121,10 @@
                 <!-- Contact Me Section with Social Media Icons -->
                 <section id="contact">
                     <h2>Contact Me</h2>
-                    <span>Feel free to reach out to me on social media or send me an email.</span>
+                    <span>Feel free to reach out to me.</span>
                     <div class="social-icons">
-                        <a href="https://www.facebook.com/surya.adhikari.7583/" target="_blank" class="social-icon">
-                            <i class="fab fa-facebook-f"></i> <!-- Facebook Icon -->
-                        </a>
                         <a href="https://x.com/werewolf939" target="_blank" class="social-icon">
                             <i class="fab fa-twitter"></i> <!-- Twitter Icon -->
-                        </a>
-                        <a href="https://www.linkedin.com/in/surya-adhikari-296929118/" target="_blank" class="social-icon">
-                            <i class="fab fa-linkedin-in"></i> <!-- LinkedIn Icon -->
-                        </a>
-                        <a href="https://github.com/werewolf22" target="_blank" class="social-icon">
-                            <i class="fab fa-github"></i> <!-- GitHub Icon -->
-                        </a>
-                        <a href="mailto:hero.himal43@gmail.com" class="social-icon">
-                            <i class="fas fa-envelope"></i> <!-- Email Icon -->
                         </a>
                     </div>
                 </section>
