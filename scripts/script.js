@@ -13,3 +13,21 @@ document.querySelectorAll(".skill .box-enter").forEach(function(box){
 });
 
 document.getElementById("year").textContent = new Date().getFullYear();
+
+
+// Get the button
+const goTopBtn = document.getElementById("goTopBtn");
+
+// Show the button when scrolled down 100px
+window.onscroll = function() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        goTopBtn.style.display = "block";
+    } else {
+        goTopBtn.style.display = "none";
+    }
+};
+
+// Scroll to the top
+function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}

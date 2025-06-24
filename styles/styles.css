@@ -245,6 +245,28 @@ main{
     color: #ffffff;
 }
 
+#goTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: linear-gradient(135deg, #007cf0, #00dfd8);
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+#goTopBtn:hover {
+    background: linear-gradient(135deg, #0056b3, #00a6a1);
+}
+
 @media (max-width: 768px) {
     .site-footer {
         padding: 30px 15px;

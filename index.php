@@ -150,7 +150,7 @@
             <p>Made with ❤️ in Kathmandu, Nepal</p>
         </div>
     </footer>
-    
+    <button onclick="topFunction()" id="goTopBtn" title="Go to top">↑ Top</button>
     <script src="scripts/script.js"></script>
 </body>
 </html>
