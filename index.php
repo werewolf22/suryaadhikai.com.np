@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO Metadata -->
-    <meta name="description" content="Surya Adhikari - A Nepali Web Developer and Blogger based in Kathmandu, Nepal with 6+ years of experience in full-stack development. Specializing in HTML, CSS, JavaScript, and PHP, I build dynamic web apps and share insights through creative and research writing. Explore my portfolio for freelance and software engineering projects.">
-    <meta name="keywords" content="Kathmandu, Nepal, Surya Adhikari, Nepali, Web Developer, Full-stack Web Developer, Blogger, Software Engineer, Freelance developer Nepal, HTML, CSS, JavaScript, PHP, Creative writing, Research writing, Portfolio, Web Apps">
+    <meta name="description" content="Surya Adhikari - A Nepali Web Developer and Blogger based in Kathmandu, Nepal with 6+ years of experience in full-stack development. Specializing in HTML, CSS, JavaScript, and PHP, I build dynamic web apps and share insights through creative and research writing. Explore my website for freelance and software engineering projects.">
+    <meta name="keywords" content="Kathmandu, Nepal, Surya Adhikari, Nepali, Web Developer, Full-stack Web Developer, Blogger, Freelance developer Nepal, HTML, CSS, JavaScript, PHP, Creative writing, Research writing, Web Apps">
     <meta name="author" content="Surya Adhikari">
 
     <!-- Open Graph Metadata -->
     <meta property="og:title" content="Surya Adhikari - Full-Stack Web Developer & Blogger in Kathmandu, Nepal">
-    <meta property="og:description" content="Discover the portfolio, skills, and technical blog of Surya Adhikari, a Nepali full-stack developer specializing in HTML, CSS, JavaScript, and PHP.">
+    <meta property="og:description" content="Discover the website, skills, and technical blog of Surya Adhikari, a Nepali full-stack developer specializing in HTML, CSS, JavaScript, and PHP.">
     <meta property="og:image" content="https://suryaadhikari.com.np/images/profile-pic-web.jpeg">
     <meta property="og:url" content="https://suryaadhikari.com.np">
     <meta property="og:type" content="website">
@@ -20,7 +20,7 @@
     <!-- Twitter Metadata -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Surya Adhikari - Full-Stack Web Developer & Blogger in Nepal">
-    <meta name="twitter:description" content="Explore Surya Adhikari's portfolio and blog featuring web development expertise in HTML, CSS, JavaScript, and PHP.">
+    <meta name="twitter:description" content="Explore Surya Adhikari's website and blog featuring web development expertise in HTML, CSS, JavaScript, and PHP.">
     <meta name="twitter:image" content="https://suryaadhikari.com.np/images/profile-pic-web.jpeg">
 
 
@@ -77,19 +77,22 @@
                             <div class="box-enter"></div>
                         </div>
                     </div>
+                </div >
+                <div id="hero-header">
+                    <div class="hero-img-wrapper">
+                        <img src="images/profile-pic-web.jpeg" alt="Surya Adhikari - Web Developer">
+                    </div>
+
+                    <div>
+                        <header>
+                            <h1>Welcome! I'm Surya Adhikari, a Web Developer and Blogger</h1>
+                            <p>I have a passion for crafting engaging, creative, research intensive and technical content. With over 6 years of experience in web development, I specialize in HTML, CSS, JavaScript, and PHP. Explore my website and blog to discover my projects and insights.</p>
+                        </header>
+                    
+                        
+                    </div>
+                    
                 </div>
-
-                
-                <div class="hero-img-wrapper">
-                    <img src="images/profile-pic-web.jpeg" alt="Surya Adhikari - Web Developer">
-                </div>
-
-
-                <header>
-                    <h1>Welcome! I'm Surya Adhikari, a Web Developer and Blogger</h1>
-                    <p>I have a passion for crafting engaging, creative, research intensive and technical content. With over 6 years of experience in web development, I specialize in HTML, CSS, JavaScript, and PHP. Explore my portfolio and blog to discover my latest projects and insights.</p>
-                </header>
-            
                 <!-- About Me Section -->
                 <section id="about">
                     <h2>About Me</h2>
@@ -97,6 +100,7 @@
                     <p>With a strong understanding of the software development lifecycle, object-oriented design, and modern web frameworks, I have contributed to various innovative projects. I am also experienced in collaborating with cross-functional teams to deliver optimized, user-friendly systems.</p>
                     <p>As a problem-solver with solid DevOps and server management skills, I am eager to contribute to innovative projects that push the boundaries of web development.</p>
                 </section>
+                
             
                 <!-- Key Achievements Section -->
                 <section id="achievements">
@@ -112,8 +116,8 @@
             
                 <!-- Portfolio Section -->
                 <section id="portfolio">
-                    <h2>Portfolio</h2>
-                    <p>Check out some of my latest web development projects below.</p>
+                    <h2>Projects</h2>
+                    <p>Check out some of my projects below.</p>
                     <!-- You can add portfolio project cards or links here -->
                      <a href="https://www.gsenconsultancy.com/" target="_blank"> <button class="portfolio-button"> A consulting Institute's website</button></a>
                 </section>

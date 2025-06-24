@@ -133,11 +133,16 @@ main{
     width: 270px;
 }
 
+.hero #hero-header{
+    display:flex;
+    align-items: center;
+}
+
 .hero-img-wrapper {
     display: inline;
     position: relative;
     width: fit-content;
-    float: left;
+    /* float: left; */
     margin-right: 1em;
 }
 
@@ -262,7 +267,10 @@ main{
     }
     .hero img{
         width: 150px;
-        float: none;
+        /* float: none; */
+    }
+    .hero #hero-header{
+        display: block;
     }
     .hero p{
         font-size: x-large;
