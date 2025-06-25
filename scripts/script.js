@@ -31,3 +31,16 @@ window.onscroll = function() {
 function topFunction() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
+
+window.addEventListener('load', () => {
+  const preloader = document.getElementById('preloader');
+  const content = document.getElementById('main-content');
+
+  preloader.style.opacity = '0';
+  preloader.style.transition = 'opacity 1s ease';
+  
+  setTimeout(() => {
+    preloader.style.display = 'none';
+    content.style.display = 'block';
+  }, 500);
+});
