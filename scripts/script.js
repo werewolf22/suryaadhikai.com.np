@@ -37,10 +37,10 @@ window.addEventListener('load', () => {
   const content = document.getElementById('main-content');
 
   preloader.style.opacity = '0';
-  preloader.style.transition = 'opacity 1s ease';
+  preloader.style.transition = 'opacity 3s ease';
   
   setTimeout(() => {
-    preloader.style.display = 'none';
-    content.style.display = 'block';
-  }, 500);
+      content.style.display = 'block';
+      preloader.style.display = 'none';
+  }, 800);
 });
